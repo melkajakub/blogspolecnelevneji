@@ -31,7 +31,7 @@ Na blogu najdete praktické tipy k úsporám, návody, jak číst faktury, vysv�
 
 ### Závěr
 Blog Společně levněji je tu proto, abyste se snadno zorientovali v energiích a vyhnuli se nevýhodným nabídkám. Sledujte naše články a využijte možnost objednat si naši službu – **s námi budete mít jistotu, že platíte férově**.`,
-    date: "24. září 2024",
+    date: "15. září 2025",
     readTime: "5 min",
     category: "O nás",
     featured: true
@@ -59,7 +59,7 @@ Distribuční sazba určuje, jak platíte regulovanou část ceny elektřiny. Ne
 
 ### Závěr
 Správná distribuční sazba je jeden z detailů, který může rozhodnout o tom, jestli platíte férovou cenu. Pokud si nejste jistí, zda máte sazbu nastavenou optimálně, obraťte se na nás – pomůžeme vám s kontrolou i optimalizací.`,
-    date: "20. září 2024",
+    date: "23. září 2025",
     readTime: "4 min",
     category: "Úspory",
     featured: false
