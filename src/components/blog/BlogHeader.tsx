@@ -27,10 +27,7 @@ const BlogHeader = () => {
           </a>
         </nav>
 
-        <Button 
-          asChild 
-          className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium"
-        >
+        <Button asChild>
           <a 
             href="https://www.spolecnelevneji.cz" 
             target="_blank" 
