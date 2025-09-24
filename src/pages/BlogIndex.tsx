@@ -53,7 +53,7 @@ const BlogIndex = () => {
         <div className="mb-12">
           <AffiliateBanner
             title="E.ON – ověřený dodavatel s výhodnými nabídkami"
-            description="Pokud nechcete využít mých služeb a chcete přejít k ověřenému dodavateli, tak E.ON má aktuálně pro nové zákazníky jedny z nejvýhodnějších nabídek na trhu."
+            description="Pokud nechcete využít mých služeb a chcete přejít k ověřenému dodavateli, tak E.ON má aktuálně pro nové zákazníky jedny z nejvýhodnějších nabídek na trhu. Při následném vyjednáváni se stávajícím zákazníkem před koncem fixace už ale tak vstřícný není."
             buttonText="Přejít k E.ON"
             href="https://ehub.cz/system/scripts/click.php?a_aid=7023d82f&a_bid=87497054"
             company="E.ON"
