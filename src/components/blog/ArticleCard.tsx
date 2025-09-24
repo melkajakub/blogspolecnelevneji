@@ -6,7 +6,6 @@ import { Calendar, Clock, ArrowRight } from "lucide-react";
 interface ArticleCardProps {
   title: string;
   excerpt: string;
-  content: string;
   date: string;
   readTime: string;
   category: string;

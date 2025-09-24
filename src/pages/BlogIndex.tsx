@@ -78,7 +78,6 @@ const BlogIndex = () => {
                 key={article.id}
                 title={article.title}
                 excerpt={article.excerpt}
-                content={article.content}
                 date={article.date}
                 readTime={article.readTime}
                 category={article.category}
