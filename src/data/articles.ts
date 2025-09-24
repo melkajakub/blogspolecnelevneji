@@ -21,10 +21,16 @@ Platíte za energie a nejste si jistí, jestli je vaše cena férová? Nejste sa
 Rozhodl jsem se tuto službu poskytovat proto, že se často setkávám s lidmi, kteří zbytečně přeplácí. Dodavatelé spoléhají na to, že zákazníci nebudou řešit končící fixace a automaticky spadnou na nevýhodné ceníky. Cílem projektu je stát na vaší straně – hlídat, vyjednávat a hledat férové řešení.
 
 ### Jak služba funguje
-- Klient zaplatí **600 Kč ročně**.
-- Za tuto částku za něj hlídám fixace, komunikuji s dodavateli a hledám nejlepší řešení.
-- Klient dostává přehledné e-mailové reporty s výsledky a návrhy dalších kroků.
-- Smlouvu vždy uzavírá přímo klient s dodavatelem, já působím jako nezávislý poradce.
+Na začátku pro klienta zanalyzuji, zda má správně nastavenou distribuční sazbu, jestli má sjednanou rozumnou cenu, kdy mu končí fixace a zda je možné vyjednat výhodnější cenu u stávajícího dodavatele, nebo bude lepší dodavatele změnit. Všechny varianty odprezentuji včetně čísel, aby klient jasně viděl, co pro něj jednotlivé kroky znamenají a mohl si vybrat nejschůdnější řešení.
+
+Před koncem fixace vždy automaticky oslovím stávajícího dodavatele a pokusím se vyjednat individuální nabídku. O výsledku jednání klienta informuji e-mailem, přiložím srovnání konkurenčních nabídek a klient se pak sám rozhodne, zda nabídku přijme, nebo mě požádá o zajištění jiné. Veškeré smlouvy uzavírá přímo klient s dodavatelem, já vystupuji jako nezávislý poradce.
+
+Za tuto službu klient platí **600 Kč ročně** za každé odběrné místo. Součástí služby je pravidelné hlídání fixací, komunikace s dodavateli a zasílání přehledných reportů s doporučeními a návrhy dalších kroků.
+
+### Komu se služba vyplatí
+Jednorázově se vyplatí každému – pokud po prvním jednání o konkrétním odběrném místě nezajistím úsporu alespoň 1 000 Kč, je první rok služby zdarma.
+
+Dlouhodobě se služba vyplatí zejména těm, kteří sami neřeší vyjednávání individuálních nabídek na konci fixace. Největší přínos má pro domácnosti s vyšší spotřebou, například tam, kde se topí elektřinou nebo plynem.
 
 ### Jakým tématům se budeme na blogu věnovat
 Na blogu najdete praktické tipy k úsporám, návody, jak číst faktury, vysvětlení rozdílů mezi tarify, přehledy aktuálních změn a také příběhy domácností, kterým se podařilo ušetřit. Chci, abyste se v energiích cítili jistě a nemuseli mít obavy, že vás dodavatel přeplatí.
