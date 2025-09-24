@@ -91,7 +91,7 @@ const ArticleModal: React.FC<ArticleModalProps> = ({
             <h4 className="font-bold text-lg mb-2">Začněte šetřit už dnes</h4>
             <p className="text-white/90 mb-4">
               Nechte nás hlídat vaše energie a vyjednat nejlepší ceny. 
-              První rok ZDARMA, pokud nenajdeme úsporu!
+              Profesionální služba za pouhých 600 Kč ročně!
             </p>
             <Button 
               asChild 

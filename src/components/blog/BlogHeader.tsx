@@ -19,7 +19,7 @@ const BlogHeader = () => {
         </div>
 
         <nav className="hidden md:flex items-center space-x-6">
-          <a href="/" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+          <a href="#clanky" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
             Články
           </a>
           <a href="#o-blogu" className="text-sm font-medium text-text-light hover:text-primary transition-colors">
@@ -29,7 +29,7 @@ const BlogHeader = () => {
 
         <Button 
           asChild 
-          className="bg-primary hover:bg-primary-light text-primary-foreground font-medium"
+          className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium"
         >
           <a 
             href="https://www.spolecnelevneji.cz" 

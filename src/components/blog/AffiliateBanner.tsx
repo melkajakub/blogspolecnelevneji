@@ -35,7 +35,7 @@ const AffiliateBanner: React.FC<AffiliateBannerProps> = ({
           href={href}
           target="_blank"
           rel="noopener noreferrer sponsored"
-          className="inline-flex items-center space-x-2 bg-primary hover:bg-primary-light text-primary-foreground px-4 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap"
+          className="inline-flex items-center space-x-2 bg-primary hover:bg-primary/90 text-primary-foreground px-4 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap"
         >
           <span>{buttonText}</span>
           <ExternalLink className="h-4 w-4" />

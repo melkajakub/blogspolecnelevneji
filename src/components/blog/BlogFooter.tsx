@@ -29,18 +29,13 @@ const BlogFooter = () => {
             <h4 className="font-semibold text-foreground">Užitečné odkazy</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/" className="text-text-light hover:text-primary transition-colors">
+                <a href="#clanky" className="text-text-light hover:text-primary transition-colors">
                   Všechny články
                 </a>
               </li>
               <li>
                 <a href="#o-blogu" className="text-text-light hover:text-primary transition-colors">
-                  Tipy na úspory
-                </a>
-              </li>
-              <li>
-                <a href="#clanky" className="text-text-light hover:text-primary transition-colors">
-                  Distribuční sazby
+                  O blogu
                 </a>
               </li>
             </ul>

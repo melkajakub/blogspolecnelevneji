@@ -24,21 +24,18 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
 }) => {
   return (
     <Card 
-      className={`cursor-pointer transition-all duration-300 hover:shadow-card hover:-translate-y-1 ${
-        featured ? 'border-primary shadow-card' : ''
+      className={`cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${
+        featured ? 'border-primary shadow-lg' : ''
       }`}
       onClick={onClick}
     >
       <CardHeader>
         <div className="flex items-center justify-between mb-3">
-          <Badge 
-            variant="secondary" 
-            className={featured ? 'bg-primary text-primary-foreground' : ''}
-          >
+          <Badge variant="secondary">
             {category}
           </Badge>
           {featured && (
-            <Badge variant="outline" className="border-primary text-primary">
+            <Badge variant="default" className="bg-primary text-primary-foreground">
               Doporučujeme
             </Badge>
           )}

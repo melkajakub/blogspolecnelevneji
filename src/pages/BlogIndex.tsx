@@ -25,7 +25,6 @@ const BlogIndex = () => {
       <BlogHero />
       
       <main className="container py-16">
-        
         {/* Hlavní banner pro službu Společně levněji */}
         <div className="mb-16">
           <div className="bg-primary/5 border-2 border-primary/20 rounded-xl p-8 md:p-12 text-center">
@@ -113,7 +112,7 @@ const BlogIndex = () => {
               </h2>
             </div>
             <p className="text-text-light leading-relaxed mb-6">
-              Tento blog je přirozeným rozšířením služby **Společně levněji**, která pomáhá 
+              Tento blog je přirozeným rozšířením služby <strong>Společně levněji</strong>, která pomáhá 
               českým domácnostem dlouhodobě šetřit na energiích. Najdete zde praktické rady, 
               návody a tipy, jak se zorientovat v nepřehledném světě energetických dodavatelů.
             </p>
@@ -123,7 +122,6 @@ const BlogIndex = () => {
             </p>
           </div>
         </section>
-
       </main>
 
       <BlogFooter />
