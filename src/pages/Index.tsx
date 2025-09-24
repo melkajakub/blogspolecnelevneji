@@ -6,7 +6,7 @@ import ArticleModal from '@/components/blog/ArticleModal';
 import AffiliateBanner from '@/components/blog/AffiliateBanner';
 import Footer from '@/components/blog/Footer';
 import { Button } from '@/components/ui/button';
-import logoImage from '@/assets/spolecnelevneji-logo.jpg';
+import logoImage from '@/assets/spolecnelevneji-logo.png';
 
 // Data článků
 const articles = [

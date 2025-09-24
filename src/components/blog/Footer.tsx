@@ -1,6 +1,6 @@
 import React from 'react';
 import { ExternalLink } from "lucide-react";
-import logoImage from '@/assets/spolecnelevneji-logo.jpg';
+import logoImage from '@/assets/spolecnelevneji-logo.png';
 
 const Footer = () => {
   return (

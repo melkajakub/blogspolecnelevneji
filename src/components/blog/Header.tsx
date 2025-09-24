@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
-import logoImage from '@/assets/spolecnelevneji-logo.jpg';
+import logoImage from '@/assets/spolecnelevneji-logo.png';
 
 const Header = () => {
   return (
