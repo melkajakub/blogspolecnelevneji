@@ -153,7 +153,7 @@ const Index = () => {
         <div className="mb-12">
           <AffiliateBanner
             title="Ušetřeno.cz – nezávislé srovnání nabídek"
-            description="Pokud nechcete využít mých nebo našich služeb a chcete nezávislé porovnání nabídek energií, tak doporučuji Ušetřeno.cz pro rychlé a jednoduché porovnání."
+            description="Pokud nechcete využít mých služeb a chcete nezávislé porovnání nabídek energií, tak doporučuji Ušetřeno.cz pro rychlé a jednoduché porovnání."
             buttonText="Porovnat na Ušetřeno"
             href="https://www.usetreno.cz"
             company="Ušetřeno.cz"
