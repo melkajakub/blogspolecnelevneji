@@ -5,6 +5,7 @@ import ArticleCard from '@/components/blog/ArticleCard';
 import ArticleModal from '@/components/blog/ArticleModal';
 import AffiliateBanner from '@/components/blog/AffiliateBanner';
 import Footer from '@/components/blog/Footer';
+import { Button } from '@/components/ui/button';
 
 // Data článků
 const articles = [
@@ -85,13 +86,36 @@ const Index = () => {
       {/* Hlavní obsah */}
       <main className="container py-16">
         
+        {/* Hlavní banner pro službu Společně levněji */}
+        <div className="mb-16">
+          <div className="bg-primary/5 border-2 border-primary/20 rounded-xl p-8 md:p-12 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+              Dlouhodobá optimalizace vašeho odběrného místa
+            </h2>
+            <p className="text-lg text-text-light mb-6 max-w-3xl mx-auto leading-relaxed">
+              Díky službě <strong>Společně levněji</strong> dokážeme udržet stabilně dobrou cenu 
+              u stávajících ověřených dodavatelů, abyste nemuseli neustále dodavatele měnit. 
+              Hlídáme za vás fixace a vyjednáváme nejlepší podmínky.
+            </p>
+            <Button asChild size="lg" className="text-lg px-8 py-3">
+              <a 
+                href="https://www.spolecnelevneji.cz" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Objednat službu za 600 Kč/rok
+              </a>
+            </Button>
+          </div>
+        </div>
+
         {/* Affiliate banner E.ON */}
         <div className="mb-12">
           <AffiliateBanner
-            title="Dodavatel E.ON – spolehlivé dodávky energií"
-            description="E.ON patří mezi největší dodavatele energií v Česku. Nabízí transparentní ceníky a kvalitní zákaznický servis. Porovnejte si jejich nabídku s ostatními dodavateli."
-            buttonText="Navštívit E.ON"
-            href="https://www.eon.cz"
+            title="E.ON – ověřený dodavatel s výhodnými nabídkami"
+            description="Pokud nechcete využít mých služeb a chcete přejít k ověřenému dodavateli, tak E.ON má aktuálně pro nové zákazníky jedny z nejvýhodnějších nabídek na trhu."
+            buttonText="Přejít k E.ON"
+            href="https://ehub.cz/system/scripts/click.php?a_aid=7023d82f&a_bid=87497054"
             company="E.ON"
           />
         </div>
@@ -124,13 +148,13 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Další affiliate banner - připraveno pro Ušetřeno.cz */}
+        {/* Affiliate banner Ušetřeno.cz */}
         <div className="mb-12">
           <AffiliateBanner
-            title="Ušetřeno.cz – srovnání cen energií"
-            description="Porovnejte si ceny energií od různých dodavatelů a najděte tu nejlepší nabídku pro vaši domácnost. Rychle, jednoduše a zdarma."
-            buttonText="Porovnat ceny"
-            href="https://www.useteno.cz"
+            title="Ušetřeno.cz – nezávislé srovnání nabídek"
+            description="Pokud nechcete využít mých nebo našich služeb a chcete nezávislé porovnání nabídek energií, tak doporučuji Ušetřeno.cz pro rychlé a jednoduché porovnání."
+            buttonText="Porovnat na Ušetřeno"
+            href="https://www.usetreno.cz"
             company="Ušetřeno.cz"
           />
         </div>
