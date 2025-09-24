@@ -93,7 +93,7 @@ const BlogIndex = () => {
             title="Ušetřeno.cz – nezávislé srovnání nabídek"
             description="Pokud nechcete využít mých služeb a chcete nezávislé porovnání nabídek energií, tak doporučuji Ušetřeno.cz pro rychlé a jednoduché porovnání."
             buttonText="Porovnat na Ušetřeno"
-            href="https://www.usetreno.cz"
+            href="https://ehub.cz/system/scripts/click.php?a_aid=7023d82f&a_bid=a0b2ab17"
             company="Ušetřeno.cz"
           />
         </div>
