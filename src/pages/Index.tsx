@@ -6,7 +6,6 @@ import ArticleModal from '@/components/blog/ArticleModal';
 import AffiliateBanner from '@/components/blog/AffiliateBanner';
 import Footer from '@/components/blog/Footer';
 import { Button } from '@/components/ui/button';
-import logoImage from '@/assets/spolecnelevneji-logo.png';
 
 // Data článků
 const articles = [
@@ -166,7 +165,7 @@ const Index = () => {
           <div className="max-w-3xl mx-auto text-center">
             <div className="flex items-center justify-center space-x-3 mb-6">
               <img 
-                src={logoImage} 
+                src="/spolecnelevneji-logo.png" 
                 alt="Společně levněji logo" 
                 className="h-12 w-12"
               />

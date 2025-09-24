@@ -1,6 +1,5 @@
 import React from 'react';
 import { ExternalLink } from "lucide-react";
-import logoImage from '@/assets/spolecnelevneji-logo.png';
 
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img 
-                src={logoImage} 
+                src="/spolecnelevneji-logo.png" 
                 alt="Společně levněji logo" 
                 className="h-8 w-8"
               />
