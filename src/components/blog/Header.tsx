@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
+import logoImage from '@/assets/spolecnelevneji-logo.png';
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
         {/* Logo a název */}
         <div className="flex items-center space-x-3">
           <img 
-            src="/src/assets/spolecnelevneji-logo.png" 
+            src={logoImage} 
             alt="Společně levněji logo" 
             className="h-10 w-10"
           />
