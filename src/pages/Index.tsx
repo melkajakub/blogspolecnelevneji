@@ -93,9 +93,10 @@ const Index = () => {
               Dlouhodobá optimalizace vašeho odběrného místa
             </h2>
             <p className="text-lg text-text-light mb-6 max-w-3xl mx-auto leading-relaxed">
-              Díky službě <strong>Společně levněji</strong> dokážeme udržet stabilně dobrou cenu 
-              u stávajících ověřených dodavatelů, abyste nemuseli neustále dodavatele měnit. 
-              Hlídáme za vás fixace a vyjednáváme nejlepší podmínky.
+              Služba se vyplatí každému, kdo aktivně nebojuje s dodavateli o co nejvýhodnější ceny 
+              a přijímá zdánlivě výhodné nabídky, které mu dodavatel pošle před koncem fixace, 
+              nebo dokonce nechá smlouvu automaticky prolongovat se základním ceníkem. 
+              <strong>Pokud takový zákazník topí plynem nebo elektřinou, úspora může být klidně přes 10 000 Kč ročně!</strong>
             </p>
             <Button asChild size="lg" className="text-lg px-8 py-3">
               <a 
@@ -162,9 +163,16 @@ const Index = () => {
         {/* O blogu sekce */}
         <section id="o-blogu" className="bg-muted/50 rounded-lg p-8 md:p-12">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-              O blogu Společně levněji
-            </h2>
+            <div className="flex items-center justify-center space-x-3 mb-6">
+              <img 
+                src="/src/assets/spolecnelevneji-logo.png" 
+                alt="Společně levněji logo" 
+                className="h-12 w-12"
+              />
+              <h2 className="text-2xl md:text-3xl font-bold text-foreground">
+                O blogu Společně levněji
+              </h2>
+            </div>
             <p className="text-text-light leading-relaxed mb-6">
               Tento blog je přirozeným rozšířením služby **Společně levněji**, která pomáhá 
               českým domácnostem dlouhodobě šetřit na energiích. Najdete zde praktické rady, 
