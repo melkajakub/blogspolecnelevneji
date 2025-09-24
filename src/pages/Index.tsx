@@ -46,9 +46,8 @@ Jedním z nejjednodušších způsobů, jak ušetřit na energiích, je správn�
 - **D01d** – pro domácnosti s velmi nízkou spotřebou (např. byty bez elektrického vytápění, chalupy).
 - **D02d** – nejběžnější sazba pro domácnosti se střední spotřebou.
 - **D25d** – pro domácnosti s elektrickým ohřevem vody (bojler).
-- **D45d** – pro domácnosti s elektrickým vytápěním s 20 hodinami nízkého tarifu.
 - **D56d** – pro domácnosti s tepelným čerpadlem s 20 hodinami nízkého tarifu.
-- **D57d** – pro domácnosti s elektrickým vytápěním a akumulací s 20 hodinami nízkého tarifu.
+- **D57d** – pro domácnosti s tepelným čerpadlem s 20 hodinami nízkého tarifu.
 
 Každá sazba je určena pro jiné podmínky, a pokud je nastavená nesprávně, domácnost na tom tratí.
 
