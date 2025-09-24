@@ -91,7 +91,7 @@ const BlogIndex = () => {
         <div className="mb-12">
           <AffiliateBanner
             title="Ušetřeno.cz – nezávislé srovnání nabídek"
-            description="Pokud nechcete využít mých služeb a chcete nezávislé porovnání nabídek energií, tak doporučuji Ušetřeno.cz pro rychlé a jednoduché porovnání."
+            description="Pokud nechcete využít mých služeb a chcete jen porovnání nabídek pro vaše odběrné místo bez následné dlouhodobé péče, tak doporučuji Ušetřeno.cz pro rychlé a jednoduché porovnání."
             buttonText="Porovnat na Ušetřeno"
             href="https://ehub.cz/system/scripts/click.php?a_aid=7023d82f&a_bid=a0b2ab17"
             company="Ušetřeno.cz"
