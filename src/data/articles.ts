@@ -33,7 +33,7 @@ Jednorázově se vyplatí každému – pokud po prvním jednání o konkrétní
 Dlouhodobě se služba vyplatí zejména těm, kteří sami neřeší vyjednávání individuálních nabídek na konci fixace. Největší přínos má pro domácnosti s vyšší spotřebou, například tam, kde se topí elektřinou nebo plynem.
 
 ## 📚 Jakým tématům se budeme na blogu věnovat
-Na blogu najdete praktické tipy k úsporám, návody, jak číst faktury, vysvětlení rozdílů mezi distribučními sazbami a také příběhy domácností, kterým se podařilo ušetřit. Chci, abyste se v energiích cítili jistě a nemuseli mít obavy, že vás bude dodavatel nechávat zbytečně přeplácet.
+Na blogu najdete praktické tipy k úsporám, návody, jak číst faktury, vysvětlení rozdílů mezi distribučními sazbami a také příběhy domácností, kterým se podařilo ušetřit. Chci, abyste se v energiích cítili jistě a nemuseli mít obavy, že vás dodavatel nechává zbytečně přeplácet.
 
 ## ✅ Závěr
 Blog Společně levněji je tu proto, abyste se snadno zorientovali v energiích a vyhnuli se nevýhodným nabídkám. Sledujte naše články a využijte možnost objednat si naši službu – **s námi budete mít jistotu, že platíte férové ceny**.`,
