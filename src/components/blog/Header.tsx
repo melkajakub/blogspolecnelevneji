@@ -8,9 +8,11 @@ const Header = () => {
       <div className="container flex h-16 items-center justify-between">
         {/* Logo a název */}
         <div className="flex items-center space-x-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-hero-gradient">
-            <div className="h-6 w-6 rounded-full border-2 border-white/80" />
-          </div>
+          <img 
+            src="/src/assets/spolecnelevneji-logo.png" 
+            alt="Společně levněji logo" 
+            className="h-10 w-10"
+          />
           <div>
             <h1 className="text-xl font-bold text-foreground">Společně levněji</h1>
             <p className="text-sm text-text-light -mt-1">blog</p>

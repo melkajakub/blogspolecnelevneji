@@ -11,8 +11,7 @@ const Hero = () => {
             Společně levněji blog
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-            Praktické rady, jak ušetřit na energiích a nedat dodavatelům 
-            ani korunu navíc
+            Praktické rady, jak ušetřit na energiích a platit férové ceny
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
