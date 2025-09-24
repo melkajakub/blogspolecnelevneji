@@ -30,7 +30,7 @@ Za tuto službu klient platí **600 Kč ročně** za každé odběrné místo. S
 ## 👥 Komu se služba vyplatí
 Jednorázově se vyplatí každému – pokud po prvním jednání o konkrétním odběrném místě nezajistím úsporu alespoň 1 000 Kč, je první rok služby zdarma.
 
-Dlouhodobě se služba vyplatí zejména těm, kteří sami neřeší vyjednávání individuálních nabídek na konci fixace. Největší přínos má pro domácnosti s vyšší spotřebou, například tam, kde se topí elektřinou nebo plynem.
+Dlouhodobě se služba vyplatí zejména těm, kteří sami aktivně nevyjednávájí individuální nabídeky na konci fixace a přistupují na nabídky automaticky posílané dodavatelem. Největší přínos má pro domácnosti s vyšší spotřebou, například tam, kde se topí elektřinou nebo plynem.
 
 ## 📚 Jakým tématům se budeme na blogu věnovat
 Na blogu najdete praktické tipy k úsporám, návody, jak číst faktury, vysvětlení rozdílů mezi distribučními sazbami a také příběhy domácností, kterým se podařilo ušetřit. Chci, abyste se v energiích cítili jistě a nemuseli mít obavy, že vás dodavatel nechává zbytečně přeplácet.
