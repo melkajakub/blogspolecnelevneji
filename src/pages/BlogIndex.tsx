@@ -118,7 +118,7 @@ const BlogIndex = () => {
             </p>
             <p className="text-text-light leading-relaxed">
               Náš cíl je jednoduchý – chceme, abyste platili za energie férovou cenu 
-              a nemuseli se obávat, že vás dodavatel přeplatí.
+              a nemuseli se obávat, že vás dodavatel nechá dlouhobě za dodávky energií přeplácet.
             </p>
           </div>
         </section>
