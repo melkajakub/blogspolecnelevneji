@@ -19,24 +19,17 @@
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
     <link rel="canonical" href="https://blog.spolecnelevneji.cz" />
+    
+    <!-- SPA Redirect Script for GitHub Pages -->
+    <script>
+      // Redirect all 404s to index.html for SPA routing
+      sessionStorage.redirect = location.href;
+    </script>
+    <meta http-equiv="refresh" content="0;URL='/'">
   </head>
 
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    
-    <!-- SPA Redirect Handler for GitHub Pages -->
-    <script>
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = sessionStorage.redirect || '';
-          delete sessionStorage.redirect;
-          if (decoded) {
-            l.replace(decoded);
-          }
-        }
-      }(window.location))
-    </script>
     
     <!-- Structured Data for Blog -->
     <script type="application/ld+json">
