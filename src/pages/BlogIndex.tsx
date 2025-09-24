@@ -1,74 +1,17 @@
 import React, { useState } from 'react';
-import Header from '@/components/blog/Header';
-import Hero from '@/components/blog/Hero';
+import BlogHeader from '@/components/blog/BlogHeader';
+import BlogHero from '@/components/blog/BlogHero';
 import ArticleCard from '@/components/blog/ArticleCard';
 import ArticleModal from '@/components/blog/ArticleModal';
 import AffiliateBanner from '@/components/blog/AffiliateBanner';
-import Footer from '@/components/blog/Footer';
+import BlogFooter from '@/components/blog/BlogFooter';
 import { Button } from '@/components/ui/button';
+import { articles, type Article } from '@/data/articles';
 
-// Data článků
-const articles = [
-  {
-    id: 1,
-    title: "Proč vznikl projekt Společně levněji a co od nás můžete čekat",
-    excerpt: "Platíte za energie a nejste si jistí, jestli je vaše cena férová? Právě proto vznikl projekt Společně levněji – abych vám pomohl ušetřit peníze s minimálním úsilím z vaší strany.",
-    content: `### Úvod
-Platíte za energie a nejste si jistí, jestli je vaše cena férová? Nejste sami. Mnoho domácností v Česku zbytečně platí tisíce korun navíc jen proto, že se v nabídkách a fakturách těžko vyznají. Právě proto vznikl projekt **Společně levněji** – abych vám pomohl ušetřit peníze s minimálním úsilím z vaší strany.
+const BlogIndex = () => {
+  const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
 
-### Moje motivace
-Rozhodl jsem se tuto službu poskytovat proto, že se často setkávám s lidmi, kteří zbytečně přeplácí. Dodavatelé spoléhají na to, že zákazníci nebudou řešit končící fixace a automaticky spadnou na nevýhodné ceníky. Cílem projektu je stát na vaší straně – hlídat, vyjednávat a hledat férové řešení.
-
-### Jak služba funguje
-- Klient zaplatí **600 Kč ročně**.
-- Za tuto částku za něj hlídám fixace, komunikuji s dodavateli a hledám nejlepší řešení.
-- Klient dostává přehledné e-mailové reporty s výsledky a návrhy dalších kroků.
-- Smlouvu vždy uzavírá přímo klient s dodavatelem, já působím jako nezávislý poradce.
-
-### Jakým tématům se budeme na blogu věnovat
-Na blogu najdete praktické tipy k úsporám, návody, jak číst faktury, vysvětlení rozdílů mezi tarify, přehledy aktuálních změn a také příběhy domácností, kterým se podařilo ušetřit. Chci, abyste se v energiích cítili jistě a nemuseli mít obavy, že vás dodavatel přeplatí.
-
-### Závěr
-Blog Společně levněji je tu proto, abyste se snadno zorientovali v energiích a vyhnuli se nevýhodným nabídkám. Sledujte naše články a využijte možnost objednat si naši službu – **s námi budete mít jistotu, že platíte férově**.`,
-    date: "24. září 2024",
-    readTime: "5 min",
-    category: "O nás",
-    featured: true
-  },
-  {
-    id: 2,
-    title: "Máte správnou distribuční sazbu?",
-    excerpt: "Jedním z nejjednodušších způsobů, jak ušetřit na energiích, je správně nastavená distribuční sazba. Pokud je vaše sazba nevhodně zvolená, můžete platit zbytečně stovky až tisíce korun ročně navíc.",
-    content: `### Úvod
-Jedním z nejjednodušších způsobů, jak ušetřit na energiích, je správně nastavená **distribuční sazba**. Jde o část regulované složky ceny, která je stejná bez ohledu na to, jakého máte dodavatele. Pokud je vaše sazba nevhodně zvolená, můžete platit zbytečně stovky až tisíce korun ročně navíc.
-
-### Nejčastější distribuční sazby
-- **D01d** – pro domácnosti s velmi nízkou spotřebou (např. byty bez elektrického vytápění, chalupy).
-- **D02d** – nejběžnější sazba pro domácnosti se střední spotřebou.
-- **D25d** – pro domácnosti s elektrickým ohřevem vody (bojler).
-- **D57d** – pro domácnosti s tepelným čerpadlem s 20 hodinami nízkého tarifu.
-
-Každá sazba je určena pro jiné podmínky, a pokud je nastavená nesprávně, domácnost na tom tratí.
-
-### Častý problém
-Často se setkávám se situací, kdy má domácnost s roční spotřebou třeba jen **1,5 MWh** sazbu **D02d**. V takovém případě je mnohem výhodnější přejít na sazbu **D01d**, což může přinést úsporu i kolem **1 000 Kč ročně** – a to bez ohledu na to, jakého má zákazník dodavatele nebo jakou má sjednanou cenu.
-
-### Proč na sazbě záleží
-Distribuční sazba určuje, jak platíte regulovanou část ceny elektřiny. Nesprávná volba znamená, že platíte víc, než musíte, i když máte jinak výhodný tarif od dodavatele. Proto je vždy důležité zkontrolovat, zda odpovídá vaší skutečné spotřebě.
-
-### Závěr
-Správná distribuční sazba je jeden z detailů, který může rozhodnout o tom, jestli platíte férovou cenu. Pokud si nejste jistí, zda máte sazbu nastavenou optimálně, obraťte se na nás – pomůžeme vám s kontrolou i optimalizací.`,
-    date: "20. září 2024",
-    readTime: "4 min",
-    category: "Úspory",
-    featured: false
-  }
-];
-
-const Index = () => {
-  const [selectedArticle, setSelectedArticle] = useState<typeof articles[0] | null>(null);
-
-  const handleArticleClick = (article: typeof articles[0]) => {
+  const handleArticleClick = (article: Article) => {
     setSelectedArticle(article);
   };
 
@@ -78,10 +21,9 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
-      <Hero />
+      <BlogHeader />
+      <BlogHero />
       
-      {/* Hlavní obsah */}
       <main className="container py-16">
         
         {/* Hlavní banner pro službu Společně levněji */}
@@ -185,7 +127,7 @@ const Index = () => {
 
       </main>
 
-      <Footer />
+      <BlogFooter />
 
       {/* Modal pro zobrazení článku */}
       {selectedArticle && (
@@ -203,4 +145,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default BlogIndex;

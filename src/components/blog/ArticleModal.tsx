@@ -23,7 +23,6 @@ const ArticleModal: React.FC<ArticleModalProps> = ({
   readTime,
   category
 }) => {
-  // Rozdělí obsah na sekce podle ### nadpisů
   const formatContent = (content: string) => {
     const lines = content.split('\n');
     const formatted = [];
@@ -45,7 +44,6 @@ const ArticleModal: React.FC<ArticleModalProps> = ({
         }
         formatted.push('<br>');
       } else if (line.includes('**') && line.includes('**')) {
-        // Zpracování bold textu
         const boldFormatted = line.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
         currentSection.push(`<p>${boldFormatted}</p>`);
       } else if (line.trim() !== '') {
@@ -89,7 +87,6 @@ const ArticleModal: React.FC<ArticleModalProps> = ({
             }}
           />
           
-          {/* CTA na konci článku */}
           <div className="mt-8 p-6 bg-hero-gradient rounded-lg text-white">
             <h4 className="font-bold text-lg mb-2">Začněte šetřit už dnes</h4>
             <p className="text-white/90 mb-4">

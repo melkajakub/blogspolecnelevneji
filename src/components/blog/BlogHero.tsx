@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 
-const Hero = () => {
+const BlogHero = () => {
   return (
     <section className="relative py-20 bg-hero-gradient text-white overflow-hidden">
       <div className="absolute inset-0 bg-black/20" />
@@ -42,4 +42,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default BlogHero;
