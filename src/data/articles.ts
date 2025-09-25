@@ -84,10 +84,10 @@ Dodavatelé si vás většinou chtějí udržet a jsou ochotni jednat o lepšíc
 Situace, kdy se vyplatí jednat před koncem fixace:
 - **Ceny na trhu výrazně klesají** – nemá smysl platit vysokou fixní cenu, když je možné získat lepší
 - **Blíží se topná sezona** – vyšší spotřeba znamená, že i menší úspora na ceně se rychle projeví
-- **Změna spotřeby** – například instalace tepelného čerpadla nebo naopak snížení spotřeby
+- **Změna spotřeby** – například instalace tepelného čerpadla nebo jiná změna ve spotřebě energií.
 
 ## 🤝 Dlouhodobá spolupráce jako výhoda
-To je velká výhoda služby **Společně levněji**, která staví na dlouhodobé spolupráci s jedním dodavatelem. Zákazník tak nemusí neustále přecházet, řešit sankce nebo složité výpočty. Stačí jen nechat službu dlouhodobě udržovat dobrou cenu u dodavatele, se kterým je spokojený.
+To je velká výhoda služby **Společně levněji**, která staví na dlouhodobé spolupráci s vaším dodavatelem. Zákazník tak nemusí neustále přecházet, řešit sankce nebo složité výpočty. Stačí nás jen nechat dlouhodobě udržovat dobrou cenu u dodavatele, se kterým je spokojený.
 
 ## ✅ Závěr
 Nemusíte čekat na konec fixace, pokud je na trhu lepší příležitost. Důležité je mít někoho, kdo sleduje trh a ví, kdy je vhodný čas jednat. **Společně levněji** vám zajistí, že nepropásnete výhodnou nabídku a budete mít vždy férovou cenu.`,
