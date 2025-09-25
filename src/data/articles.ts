@@ -98,26 +98,26 @@ Nemusíte čekat na konec fixace, pokud je na trhu lepší příležitost. Důle
   },
   {
     id: 4,
-    title: "Je správné počítat cenu vydělením faktury spotřebou?",
-    excerpt: "Mnozí zákazníci počítají cenu za kWh tak, že vydělí celkovou částku na faktuře spotřebou. Tento postup může být ale zavádějící a vést k nesprávným závěrům při porovnávání nabídek.",
+    title: "Je správné počítat cenu vydělením konečné částky na faktuře celkovou spotřebou?",
+    excerpt: "Mnozí zákazníci počítají cenu za kWh tak, že vydělí celkovou částku na faktuře celkovou spotřebou. Tento postup může být ale zavádějící a vést k nesprávným závěrům při porovnávání nabídek.",
     content: `## 🧮 Úvod
-Mnozí zákazníci počítají cenu za kWh tak, že **vydělí celkovou částku na faktuře spotřebou**. Tento postup může být ale zavádějící a vést k nesprávným závěrům při porovnávání nabídek. Proč tomu tak je?
+Mnozí zákazníci počítají cenu za kWh tak, že **vydělí celkovou částku na faktuře celkovou spotřebou**. Tento postup může být ale zavádějící a vést k nesprávným závěrům při porovnávání nabídek. Proč tomu tak je?
 
 ## 📊 Složení ceny elektřiny
 Cena se totiž skládá z **obchodní a regulované složky**, navíc faktura obsahuje i **paušální poplatky**:
 - **Obchodní složka** – cena, kterou si stanovuje dodavatel
-- **Regulovaná složka** – distribuce, přenos, systémové služby (stejná u všech dodavatelů)
+- **Regulovaná složka** – distribuce, přenos, systémové služby (stejná u všech dodavatelů, ale může se lišit v různých distribučních uzemích)
 - **Paušální poplatky** – měsíční poplatek za dodávku a distribuci
 
 ## ⚠️ Proč je výpočet zavádějící
 Při porovnání dvou odběrných míst s různou spotřebou tak může vyjít zdánlivě jiná cena, i když je sjednaná **stejná obchodní cena za kWh**. 
 
 **Příklad:**
-- Domácnost A: spotřeba 2 000 kWh ročně
-- Domácnost B: spotřeba 4 000 kWh ročně
-- Obě mají stejnou obchodní cenu 1,50 Kč/kWh
+- Domácnost A: spotřeba 1 000 kWh ročně
+- Domácnost B: spotřeba 8 000 kWh ročně
+- Obě mají stejnou obchodní cenu 2,50 Kč/kWh bez DPH
 
-U vyšší spotřeby se totiž paušální poplatky „rozpustí" do většího objemu kWh, a výsledek pak vypadá levněji, i když je skutečná obchodní cena stejná.
+U vyšší spotřeby se totiž paušální poplatky „rozpustí" do většího objemu kWh, a výsledek pak vypadá znatelně levněji, i když je skutečná obchodní cena stejná.
 
 ## ✅ Správný způsob porovnání
 Proto je správné **porovnávat jen obchodní cenu za kWh**, ne celkovou částku na faktuře. Jen tak získáte reálný obrázek o tom, která nabídka je skutečně výhodnější.
