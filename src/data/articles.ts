@@ -69,5 +69,64 @@ Správná distribuční sazba je jeden z detailů, který může rozhodnout o to
     readTime: "4 min",
     category: "Úspory",
     featured: false
+  },
+  {
+    id: 3,
+    title: "Musím čekat na konec fixace?",
+    excerpt: "Pokud cena na trhu klesá nebo se blíží topná sezona, není nutné čekat až do konce fixace. U některých dodavatelů lze jako stávající zákazník získat novou individuální nabídku i několik měsíců před vypršením fixace, bez sankcí.",
+    content: `## 🕒 Úvod
+Mnozí zákazníci si myslí, že musí čekat až do konce fixace, aby mohli změnit cenu za energie. Není to ale pravda. Pokud **cena na trhu klesá** nebo se například blíží topná sezona, není nutné čekat až do konce fixace. U některých dodavatelů lze jako stávající zákazník získat novou individuální nabídku i několik měsíců před vypršením fixace, bez sankcí.
+
+## 💼 Výhoda stávajícího zákazníka
+Jako stávající zákazník máte u svého dodavatele **lepší pozici než noví klienti**. Dodavatelé si vás chtějí udržet a jsou ochotni jednat o lepších podmínkách. Často vám nabídnou individuální cenu, která může být výhodnější než ta, kterou právě platíte.
+
+## ⚠️ Kdy je vhodné nečekat
+Situace, kdy se vyplatí jednat před koncem fixace:
+- **Ceny na trhu výrazně klesají** – nemá smysl platit vysokou fixní cenu, když je možné získat lepší
+- **Blíží se topná sezona** – vyšší spotřeba znamená, že i menší úspora na ceně se rychle projeví
+- **Změna spotřeby** – například instalace tepelného čerpadla nebo naopak snížení spotřeby
+
+## 🤝 Dlouhodobá spolupráce jako výhoda
+To je velká výhoda služby **Společně levněji**, která staví na dlouhodobé spolupráci s jedním dodavatelem. Zákazník tak nemusí neustále přecházet, řešit sankce nebo složité výpočty. Stačí jen nechat službu dlouhodobě udržovat dobrou cenu u dodavatele, se kterým je spokojený.
+
+## ✅ Závěr
+Nemusíte čekat na konec fixace, pokud je na trhu lepší příležitost. Důležité je mít někoho, kdo sleduje trh a ví, kdy je vhodný čas jednat. **Společně levněji** vám zajistí, že nepropásnete výhodnou nabídku a budete mít vždy férovou cenu.`,
+    date: "28. září 2025",
+    readTime: "4 min",
+    category: "Úspory",
+    featured: false
+  },
+  {
+    id: 4,
+    title: "Je správné počítat cenu vydělením faktury spotřebou?",
+    excerpt: "Mnozí zákazníci počítají cenu za kWh tak, že vydělí celkovou částku na faktuře spotřebou. Tento postup může být ale zavádějící a vést k nesprávným závěrům při porovnávání nabídek.",
+    content: `## 🧮 Úvod
+Mnozí zákazníci počítají cenu za kWh tak, že **vydělí celkovou částku na faktuře spotřebou**. Tento postup může být ale zavádějící a vést k nesprávným závěrům při porovnávání nabídek. Proč tomu tak je?
+
+## 📊 Složení ceny elektřiny
+Cena se totiž skládá z **obchodní a regulované složky**, navíc faktura obsahuje i **paušální poplatky**:
+- **Obchodní složka** – cena, kterou si stanovuje dodavatel
+- **Regulovaná složka** – distribuce, přenos, systémové služby (stejná u všech dodavatelů)
+- **Paušální poplatky** – měsíční poplatek za dodávku a distribuci
+
+## ⚠️ Proč je výpočet zavádějící
+Při porovnání dvou odběrných míst s různou spotřebou tak může vyjít zdánlivě jiná cena, i když je sjednaná **stejná obchodní cena za kWh**. 
+
+**Příklad:**
+- Domácnost A: spotřeba 2 000 kWh ročně
+- Domácnost B: spotřeba 4 000 kWh ročně
+- Obě mají stejnou obchodní cenu 1,50 Kč/kWh
+
+U vyšší spotřeby se totiž paušální poplatky „rozpustí" do většího objemu kWh, a výsledek pak vypadá levněji, i když je skutečná obchodní cena stejná.
+
+## ✅ Správný způsob porovnání
+Proto je správné **porovnávat jen obchodní cenu za kWh**, ne celkovou částku na faktuře. Jen tak získáte reálný obrázek o tom, která nabídka je skutečně výhodnější.
+
+## 🎯 Závěr
+Výpočet ceny vydělením faktury spotřebou může být zavádějící kvůli paušálním poplatkům a struktuře ceny. **Společně levněji** vám pomůže správně porovnat nabídky a najít skutečně nejlepší obchodní cenu pro vaše potřeby.`,
+    date: "30. září 2025",
+    readTime: "3 min",
+    category: "Průvodce",
+    featured: false
   }
 ];
