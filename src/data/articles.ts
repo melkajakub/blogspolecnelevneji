@@ -65,7 +65,7 @@ Distribuční sazba určuje, jak platíte regulovanou část ceny elektřiny. Ne
 
 ## ✅ Závěr
 Správná distribuční sazba je jeden z detailů, který může rozhodnout o tom, jestli platíte férovou zcenu. Pokud si nejste jistí, zda máte sazbu nastavenou optimálně, obraťte se na nás – pomůžeme vám s kontrolou i optimalizací.`,
-    date: "23. září 2025",
+    date: "17. září 2025",
     readTime: "4 min",
     category: "Úspory",
     featured: false
@@ -91,7 +91,7 @@ To je velká výhoda služby **Společně levněji**, která staví na dlouhodob
 
 ## ✅ Závěr
 Nemusíte čekat na konec fixace, pokud je na trhu lepší příležitost. Důležité je mít někoho, kdo sleduje trh a ví, kdy je vhodný čas jednat. **Společně levněji** vám zajistí, že nepropásnete výhodnou nabídku a budete mít vždy férovou cenu.`,
-    date: "28. září 2025",
+    date: "19. září 2025",
     readTime: "4 min",
     category: "Úspory",
     featured: false
@@ -124,7 +124,7 @@ Proto je správné **porovnávat jen obchodní cenu za kWh**, ne celkovou část
 
 ## 🎯 Závěr
 Výpočet ceny vydělením faktury spotřebou může být zavádějící kvůli paušálním poplatkům a struktuře ceny. **Společně levněji** vám pomůže správně porovnat nabídky a najít skutečně nejlepší obchodní cenu pro vaše potřeby.`,
-    date: "30. září 2025",
+    date: "25. září 2025",
     readTime: "3 min",
     category: "Průvodce",
     featured: false
