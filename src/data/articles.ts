@@ -64,7 +64,7 @@ Každá sazba je určena pro jiné podmínky, a pokud je nastavená nesprávně,
 Distribuční sazba určuje, jak platíte regulovanou část ceny elektřiny. Nesprávná volba znamená, že platíte víc, než musíte, i když máte jinak výhodný tarif od dodavatele. Proto je vždy důležité zkontrolovat, zda odpovídá vaší skutečné spotřebě.
 
 ## ✅ Závěr
-Správná distribuční sazba je jeden z detailů, který může rozhodnout o tom, jestli platíte férovou cenu. Pokud si nejste jistí, zda máte sazbu nastavenou optimálně, obraťte se na nás – pomůžeme vám s kontrolou i optimalizací.`,
+Správná distribuční sazba je jeden z detailů, který může rozhodnout o tom, jestli platíte férovou zcenu. Pokud si nejste jistí, zda máte sazbu nastavenou optimálně, obraťte se na nás – pomůžeme vám s kontrolou i optimalizací.`,
     date: "23. září 2025",
     readTime: "4 min",
     category: "Úspory",
@@ -73,12 +73,12 @@ Správná distribuční sazba je jeden z detailů, který může rozhodnout o to
   {
     id: 3,
     title: "Musím čekat na konec fixace?",
-    excerpt: "Pokud cena na trhu klesá nebo se blíží topná sezona, není nutné čekat až do konce fixace. U některých dodavatelů lze jako stávající zákazník získat novou individuální nabídku i několik měsíců před vypršením fixace, bez sankcí.",
+    excerpt: "Pokud cena na trhu klesá a ještě se třeba blíží topná sezona, není nutné čekat až do konce fixace. U některých dodavatelů lze jako stávající zákazník získat novou individuální nabídku i několik měsíců před vypršením fixace, bez sankcí.",
     content: `## 🕒 Úvod
-Mnozí zákazníci si myslí, že musí čekat až do konce fixace, aby mohli změnit cenu za energie. Není to ale pravda. Pokud **cena na trhu klesá** nebo se například blíží topná sezona, není nutné čekat až do konce fixace. U některých dodavatelů lze jako stávající zákazník získat novou individuální nabídku i několik měsíců před vypršením fixace, bez sankcí.
+Mnozí zákazníci si myslí, že musí čekat až do konce fixace, aby mohli změnit cenu za energie. Není to ale pravda. Pokud cena na trhu klesá a ještě se třeba blíží topná sezona, není nutné čekat až do konce fixace. U některých dodavatelů lze jako stávající zákazník získat novou individuální nabídku i několik měsíců před vypršením fixace, bez sankcí.
 
 ## 💼 Výhoda stávajícího zákazníka
-Jako stávající zákazník máte u svého dodavatele **lepší pozici než noví klienti**. Dodavatelé si vás chtějí udržet a jsou ochotni jednat o lepších podmínkách. Často vám nabídnou individuální cenu, která může být výhodnější než ta, kterou právě platíte.
+Dodavatelé si vás většinou chtějí udržet a jsou ochotni jednat o lepších podmínkách. Často vám nabídnou individuální cenu, která může být výhodnější než ta, kterou právě platíte.
 
 ## ⚠️ Kdy je vhodné nečekat
 Situace, kdy se vyplatí jednat před koncem fixace:
