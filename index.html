@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,16 +8,28 @@
     <meta name="author" content="Společně levněji" />
     <meta name="keywords" content="úspory na energiích, distribuční sazba, dodavatelé energií, elektřina, plyn, faktura">
 
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/src/main.tsx" as="script">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
-    
+    <!-- Open Graph tags -->
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://blog.spolecnelevneji.cz" />
+    <meta property="og:site_name" content="Společně levněji blog" />
     <meta property="og:image" content="https://blog.spolecnelevneji.cz/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Společně levněji blog - praktické rady pro úspory na energiích" />
 
+    <!-- Twitter Card tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    
-    
+    <meta name="twitter:site" content="@spolecnelevneji" />
+    <meta name="twitter:creator" content="@spolecnelevneji" />
     <meta name="twitter:image" content="https://blog.spolecnelevneji.cz/og-image.png" />
+    <meta name="twitter:image:alt" content="Společně levněji blog - praktické rady pro úspory na energiích" />
 
+    <!-- Canonical URL -->
     <link rel="canonical" href="https://blog.spolecnelevneji.cz" />
     <meta property="og:title" content="Společně levněji blog - Ušetřete na energiích">
   <meta name="twitter:title" content="Společně levněji blog - Ušetřete na energiích">
@@ -38,10 +50,138 @@
       "name": "Společně levněji blog",
       "description": "Praktické rady a tipy, jak ušetřit na energiích bez složitého papírování",
       "url": "https://blog.spolecnelevneji.cz",
+      "inLanguage": "cs-CZ",
       "publisher": {
         "@type": "Organization",
         "name": "Společně levněji",
-        "url": "https://www.spolecnelevneji.cz"
+        "url": "https://www.spolecnelevneji.cz",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://blog.spolecnelevneji.cz/spolecnelevneji-logo.png",
+          "width": 200,
+          "height": 200
+        }
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Společně levněji"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://blog.spolecnelevneji.cz"
+      },
+      "blogPost": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Proč vznikl projekt Společně levněji a co od nás můžete čekat",
+          "datePublished": "2025-09-15",
+          "dateModified": "2025-09-15",
+          "author": {
+            "@type": "Organization",
+            "name": "Společně levněji"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Společně levněji",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://blog.spolecnelevneji.cz/spolecnelevneji-logo.png"
+            }
+          },
+          "description": "Platíte za energie a nejste si jistí, jestli je vaše cena férová? Právě proto vznikl projekt Společně levněji – abych vám pomohl ušetřit peníze s minimálním úsilím z vaší strany.",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://blog.spolecnelevneji.cz/#clanek-1"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Máte správnou distribuční sazbu?",
+          "datePublished": "2025-09-17",
+          "dateModified": "2025-09-17",
+          "author": {
+            "@type": "Organization",
+            "name": "Společně levněji"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Společně levněji",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://blog.spolecnelevneji.cz/spolecnelevneji-logo.png"
+            }
+          },
+          "description": "Jedním z nejjednodušších způsobů, jak ušetřit na energiích, je správně nastavená distribuční sazba. Pokud je vaše sazba nevhodně zvolená, můžete platit zbytečně stovky až tisíce korun ročně navíc.",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://blog.spolecnelevneji.cz/#clanek-2"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Musím čekat na konec fixace?",
+          "datePublished": "2025-09-19",
+          "dateModified": "2025-09-19",
+          "author": {
+            "@type": "Organization",
+            "name": "Společně levněji"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Společně levněji",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://blog.spolecnelevneji.cz/spolecnelevneji-logo.png"
+            }
+          },
+          "description": "Pokud cena na trhu klesá a ještě se třeba blíží topná sezona, není nutné čekat až do konce fixace. U některých dodavatelů lze jako stávající zákazník získat novou individuální nabídku i několik měsíců před vypršením fixace, bez sankcí.",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://blog.spolecnelevneji.cz/#clanek-3"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Je správné počítat cenu vydělením konečné částky na faktuře celkovou spotřebou?",
+          "datePublished": "2025-09-25",
+          "dateModified": "2025-09-25",
+          "author": {
+            "@type": "Organization",
+            "name": "Společně levněji"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Společně levněji",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://blog.spolecnelevneji.cz/spolecnelevneji-logo.png"
+            }
+          },
+          "description": "Mnozí zákazníci počítají cenu za kWh tak, že vydělí celkovou částku na faktuře celkovou spotřebou. Tento postup může být ale zavádějící a vést k nesprávným závěrům při porovnávání nabídek.",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://blog.spolecnelevneji.cz/#clanek-4"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Organization Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Společně levněji",
+      "url": "https://www.spolecnelevneji.cz",
+      "logo": "https://blog.spolecnelevneji.cz/spolecnelevneji-logo.png",
+      "sameAs": [
+        "https://blog.spolecnelevneji.cz"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "availableLanguage": "Czech"
       }
     }
     </script>

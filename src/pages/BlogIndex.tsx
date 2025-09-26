@@ -104,8 +104,11 @@ const BlogIndex = () => {
             <div className="flex items-center justify-center space-x-3 mb-6">
               <img 
                 src="/spolecnelevneji-logo.png" 
-                alt="Společně levněji logo" 
+                alt="Logo Společně levněji - poradce pro úspory na energiích" 
                 className="h-12 w-12"
+                loading="lazy"
+                width="48"
+                height="48"
               />
               <h2 className="text-2xl md:text-3xl font-bold text-foreground">
                 O blogu Společně levněji

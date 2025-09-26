@@ -9,8 +9,11 @@ const BlogHeader = () => {
         <div className="flex items-center space-x-3">
           <img 
             src="/spolecnelevneji-logo.png" 
-            alt="Společně levněji logo" 
+            alt="Logo Společně levněji - služba pro optimalizaci cen energií" 
             className="h-10 w-10"
+            loading="eager"
+            width="40"
+            height="40"
           />
           <div>
             <h1 className="text-xl font-bold text-foreground">Společně levněji</h1>

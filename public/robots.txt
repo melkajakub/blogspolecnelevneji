@@ -12,3 +12,10 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+# Sitemap
+Sitemap: https://blog.spolecnelevneji.cz/sitemap.xml
+
+# Crawl-delay for non-priority bots
+User-agent: *
+Crawl-delay: 1

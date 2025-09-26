@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://blog.spolecnelevneji.cz</loc>
+    <lastmod>2025-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Articles section -->
+  <url>
+    <loc>https://blog.spolecnelevneji.cz/#clanky</loc>
+    <lastmod>2025-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- About section -->
+  <url>
+    <loc>https://blog.spolecnelevneji.cz/#o-blogu</loc>
+    <lastmod>2025-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Individual articles (as anchors) -->
+  <url>
+    <loc>https://blog.spolecnelevneji.cz/#clanek-1</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Společně levněji blog</news:name>
+        <news:language>cs</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-15</news:publication_date>
+      <news:title>Proč vznikl projekt Společně levněji a co od nás můžete čekat</news:title>
+    </news:news>
+  </url>
+  
+  <url>
+    <loc>https://blog.spolecnelevneji.cz/#clanek-2</loc>
+    <lastmod>2025-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Společně levněji blog</news:name>
+        <news:language>cs</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-17</news:publication_date>
+      <news:title>Máte správnou distribuční sazbu?</news:title>
+    </news:news>
+  </url>
+  
+  <url>
+    <loc>https://blog.spolecnelevneji.cz/#clanek-3</loc>
+    <lastmod>2025-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Společně levněji blog</news:name>
+        <news:language>cs</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-19</news:publication_date>
+      <news:title>Musím čekat na konec fixace?</news:title>
+    </news:news>
+  </url>
+  
+  <url>
+    <loc>https://blog.spolecnelevneji.cz/#clanek-4</loc>
+    <lastmod>2025-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Společně levněji blog</news:name>
+        <news:language>cs</news:language>
+      </news:publication>
+      <news:publication_date>2025-09-25</news:publication_date>
+      <news:title>Je správné počítat cenu vydělením konečné částky na faktuře celkovou spotřebou?</news:title>
+    </news:news>
+  </url>
+  
+</urlset>

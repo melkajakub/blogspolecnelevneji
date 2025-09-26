@@ -11,8 +11,11 @@ const BlogFooter = () => {
             <div className="flex items-center space-x-3">
               <img 
                 src="/spolecnelevneji-logo.png" 
-                alt="Společně levněji logo" 
+                alt="Logo Společně levněji - služba pro úspory na energiích" 
                 className="h-8 w-8"
+                loading="lazy"
+                width="32"
+                height="32"
               />
               <div>
                 <h3 className="font-bold text-foreground">Společně levněji</h3>

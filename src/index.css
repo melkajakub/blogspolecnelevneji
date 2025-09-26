@@ -118,5 +118,17 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-display: swap;
+  }
+
+  /* Optimize image loading */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Performance optimizations */
+  .hero-gradient {
+    background: var(--hero-gradient);
   }
 }
